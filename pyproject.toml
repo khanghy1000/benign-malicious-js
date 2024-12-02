@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "benign-malicious-js"
+version = "0.1.0"
+description = ""
+authors = ["khanghy1000 <46063255+khanghy1000@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = ">=2.0.0,<2.1.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+joblib = "^1.4.2"
+seaborn = "^0.13.2"
+xgboost = "^2.1.3"
+scikit-plot = "^0.3.7"
+imbalanced-learn = "^0.12.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
